@@ -23,7 +23,10 @@ The robot is controlled using two Logitech F310 controllers (Driver and Operator
 | :--- | :--- |
 | **Left Stick** | **Translation**: Move robot Forward/Backward and Left/Right. |
 | **Right Stick** | **Rotation**: Rotate the robot. |
+| **Left Trigger** | **Turn Left**: Slowly rotates to the left |
+| **Right Trigger** | **Turn Right**: Slowly rotates to the right |
 | **X Button** | **Auto-Aim**: Uses PhotonVision to rotate the robot toward the target. |
+| **B Button** | **Parking Brake**: Applies parking brakes when held |
 | **Left Trigger** | **Parking Brake**: Sets swerve modules to an 'X' pattern to prevent sliding. |
 | **Start Button** | **Zero Gyro**: Resets the field-relative heading. |
 
