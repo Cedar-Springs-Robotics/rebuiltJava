@@ -71,9 +71,9 @@ public class RobotContainer {
   public RobotContainer() {
     // Register Named Commands
     NamedCommands.registerCommand("SubwooferShoot", new SubwooferShoot(fuelSubsystem));
-    NamedCommands.registerCommand("Intake", new Intake(fuelSubsystem));
-    NamedCommands.registerCommand("Eject", new Eject(fuelSubsystem));
-    NamedCommands.registerCommand("AimAtTarget", new AimAtTarget(driveSubsystem, visionSubsystem));
+    NamedCommands.registerCommand("Intake", new Intake(fuelSubsystem).withTimeout((5)));
+    NamedCommands.registerCommand("Eject", new Eject(fuelSubsystem).withTimeout(1));
+    NamedCommands.registerCommand("AimAtTarget", new AimAtTarget(driveSubsystem, visionSubsystem).withTimeout(2));
     NamedCommands.registerCommand("LaunchSequence", new LaunchSequence(fuelSubsystem, this::getTargetRPM));
 
     configureBindings();

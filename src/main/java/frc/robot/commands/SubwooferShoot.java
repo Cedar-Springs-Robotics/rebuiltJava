@@ -10,6 +10,7 @@ import frc.robot.subsystems.CANFuelSubsystem;
 public class SubwooferShoot extends SequentialCommandGroup {
     /**
      * Autonomous command for shooting from the subwoofer using a specific RPM.
+     * 
      * @param fuelSubsystem The subsystem.
      */
     public SubwooferShoot(CANFuelSubsystem fuelSubsystem) {
