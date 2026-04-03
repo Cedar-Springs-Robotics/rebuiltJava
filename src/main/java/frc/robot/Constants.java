@@ -26,7 +26,7 @@ public final class Constants {
   public static final class DriveConstants {
     // Driving Parameters - Note that these are not the maximum capable speeds of
     // the robot, rather the allowed maximum speeds
-    public static final double kMaxSpeedMetersPerSecond = 4.8;  //4.8;
+    public static final double kMaxSpeedMetersPerSecond = 1.5;  //4.8;/1 did nothing TODO figure out what this is/ 
     public static final double kMaxAngularSpeed = 2 * Math.PI; // radians per second
 
     // Chassis configuration
@@ -162,11 +162,11 @@ public final class Constants {
     // values in the Joystick tab of the Driver Station software
     public static final int DRIVER_CONTROLLER_PORT = 0;
     public static final int OPERATOR_CONTROLLER_PORT = 1;
-    public static final double kDriveDeadband = 0.1;
-    public static final double XY_SLEW_RATE = 3.0;
-    public static final double ROT_SLEW_RATE = 5.0;
-    public static final double SPEED_LIMIT = 0.7;
-    public static final double TURN_SPEED_LIMIT = 0.1;
+    public static final double kDriveDeadband = 0.05;
+    public static final double XY_SLEW_RATE = 0.3;
+    public static final double ROT_SLEW_RATE = 0.3;
+    public static final double SPEED_LIMIT = 0.25;//0.4 default, 0.1 tooo slow //0.25 is closer
+    public static final double TURN_SPEED_LIMIT = 0.01;
   }
 
   public static final class AutoConstants {

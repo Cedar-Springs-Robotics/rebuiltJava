@@ -6,7 +6,7 @@ This repository contains the Java-based command-oriented robot code for the 2026
 
 The robot is controlled using two Logitech F310 controllers (Driver and Operator). Both controllers share core mechanism controls, while the Driver has exclusive access to drivetrain operations.
 
-![Controller Layout](Controls.png)
+![Controller Layout](Controls.jpg)
 
 ### Core Mechanism Controls (Shared)
 | Input | Action |
