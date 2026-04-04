@@ -87,8 +87,8 @@ class LEDController:
 def run_service():
     # 1. NetworkTables Setup
     inst = ntcore.NetworkTableInstance.getDefault()
-    inst.setServer(192.168.1.117)
-    # inst.setServerTeam(TEAM_NUMBER)
+    # inst.setServer('192.168.1.117')
+    inst.setServerTeam(TEAM_NUMBER)
     inst.startClient4("LED_Pi")
 
     table = inst.getTable("LEDs")

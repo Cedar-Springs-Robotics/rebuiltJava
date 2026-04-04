@@ -158,7 +158,7 @@ public final class Constants {
   public static final class OperatorConstants {
     public static final int DRIVER_CONTROLLER_PORT = 0;
     public static final int OPERATOR_CONTROLLER_PORT = 1;
-    public static final int FLIGHT_JOYSTICK_PORT = 3;
+    public static final int FLIGHT_JOYSTICK_PORT = 2;
     
     // Legacy slew rates (for reference, being replaced by InputConstants)
     public static final double XY_SLEW_RATE = 0.3;
